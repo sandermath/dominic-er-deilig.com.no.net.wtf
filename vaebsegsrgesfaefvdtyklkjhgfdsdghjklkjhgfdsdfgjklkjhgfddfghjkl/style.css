@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	touch-action: manipulation;
+}
+
+#clicker {
+	cursor:pointer;
+    -webkit-user-drag: none;
+    transition: 0.3s;
+}
+
+#clicker:hover {
+    transform: scale(1.1);
+}
+
+#clicker:active {
+    transform: scale(1);
+}
+
+#user_text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+
+.info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
